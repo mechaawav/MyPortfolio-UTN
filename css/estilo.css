@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.primerSecHeader{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px; 
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    height: 35px;
+}
+
+.titulo{
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 8px;
+    position: relative;
+    bottom: 3px;
+}
+
+.logosHeader{
+    position: relative;
+    top: 1px;
+    word-spacing: 3px;
+    
+}
+
+/* Barra de navegacion terminada*/
+
+.segundoSecHeader{
+     background-color: rgb(255, 180, 42);
+     height: 420px;
+}
+
+.introduccionHeader{
+
+}
