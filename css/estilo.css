@@ -5,12 +5,19 @@
     padding: 0;
 }
 
+body{
+     font-family: 'Outfit', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
 .primerSecHeader{
     display: flex;
     justify-content: space-around;
     position: relative;
     top: 10px; 
-    font-family: 'Outfit', sans-serif;
     text-align: center;
     height: 35px;
 }
@@ -24,7 +31,6 @@
 a{
     text-decoration: none;
     color: black;
-    font-family: 'Outfit', sans-serif;
     word-spacing: 8px;
     position: relative;
     bottom: 3px;
@@ -44,10 +50,6 @@ a{
 .segundoSecHeader{
      background-color: rgb(255, 180, 42);
      height: 420px;
-}
-
-.introduccionHeader{
-   font-family: 'Outfit', sans-serif;
 }
 
 .introTexto{
@@ -100,4 +102,40 @@ img{
     bottom: 140px;
     border: 10px white solid;
     border-radius: 50%;
+}
+
+/*Finalizado el header*/
+/*Comienza la primera parte del main con info personal*/
+
+.infoPersonal{
+     font-family: 'Outfit', sans-serif;
+}
+
+.infoPersonalh4h2{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sobreMi{
+    background-color: rgb(255, 180, 42);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contenedorInfoPersonal{
+    background-color: aqua;
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+.nombre{
+    
+}
+
+.presentacion{
+
 }
