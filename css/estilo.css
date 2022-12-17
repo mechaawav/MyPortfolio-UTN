@@ -10,16 +10,60 @@ body{
 }
 
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
     width: 100%;
+    background-color: white;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    word-spacing: 8px;
+}
+
+.primermain{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 180, 42); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.intro1{
+    font-size: 40px;
+}
+
+.intro2{
+    font-size: 80px;
+}
+
+.intro3{
+    font-size: 20px;
+}
+
+
+
+img{
+   width: 250px;
+   height: 250px;
+   border: 10px white solid ; 
+   border-radius: 50%;
+}
+
+/*
 .primerSecHeader{
+    height: 35px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     position: relative;
     top: 10px; 
     text-align: center;
-    height: 35px;
 }
 
 .titulo{
@@ -40,16 +84,20 @@ a{
     position: relative;
     top: 1px;
     word-spacing: 3px;
-    
+}
+
+i{
+    color: grey;
 }
 
 /* Barra de navegacion terminada*/
 
-/*Comienza la segunda parte del header(introduccion + foto)*/
+/*Comienza la segunda parte del header(introduccion + foto)
 
 .segundoSecHeader{
      background-color: rgb(255, 180, 42);
      height: 420px;
+     width: 100%;
 }
 
 .introTexto{
@@ -97,15 +145,16 @@ a{
 
 img{
     width: 270px;
+    height: 270px;
     position: relative;
-    left: 900px;
-    bottom: 140px;
+    left: 700px;
+    bottom: 250px;
     border: 10px white solid;
     border-radius: 50%;
 }
 
 /*Finalizado el header*/
-/*Comienza la primera parte del main con info personal*/
+/*Comienza la primera parte del main con info personal
 
 .infoPersonal{
      font-family: 'Outfit', sans-serif;
@@ -123,19 +172,3 @@ img{
     padding-right: 10px;
 }
 
-.contenedorInfoPersonal{
-    background-color: aqua;
-    width: 1000px;
-    height: 400px;
-    position: relative;
-    left: 300px;
-    top: 50px;
-}
-
-.nombre{
-    
-}
-
-.presentacion{
-
-}
