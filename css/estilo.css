@@ -73,106 +73,57 @@ img{
    border-radius: 50%;
 }
 
-/*
-.primerSecHeader{
-    height: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 10px; 
-    text-align: center;
-}
-
-.titulo{
-    position: relative;
-    bottom: 5px;
-    font-size: 20px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    word-spacing: 8px;
-    position: relative;
-    bottom: 3px;
-}
-
-.logosHeader{
-    position: relative;
-    top: 1px;
-    word-spacing: 3px;
-}
-
-i{
-    color: grey;
-}
-
-/* Barra de navegacion terminada*/
-
-/*Comienza la segunda parte del header(introduccion + foto)
-
-.segundoSecHeader{
-     background-color: rgb(255, 180, 42);
-     height: 420px;
-     width: 100%;
-}
-
-.introTexto{
-    position: relative;
-    left: 260px;
-    top: 100px;
-}
-
-.intro1{
-    font-size: 40px;
-}
-
-.intro2{
-    font-size: 80px;
-}
-
-.intro3{
-    font-size: 20px;
-}
-
-.botonesHeader{
-    position: relative;
-    top: 10px;
-}
-
-.botonintro1{
-    font-family: 'Outfit', sans-serif;
-    color: white;
-    background-color: black;
-    border: 0;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.botonintro2{
-    font-family: 'Outfit', sans-serif;
-    position: relative;
-    left: 10px;
-    border: 0;
+.sobremi{
     background-color: rgb(255, 180, 42);
 }
 
-img{
-    width: 270px;
-    height: 270px;
-    position: relative;
-    left: 700px;
-    bottom: 250px;
-    border: 10px white solid;
-    border-radius: 50%;
+.dospalabras1{
+    text-align: center;
+    padding-top: 80px;
 }
 
-/*Finalizado el header*/
-/*Comienza la primera parte del main con info personal
+.holasoy{
+    margin-top: 35px;
+    margin-left: 271px;
+    font-size: 23px;
+    width: 500px;
+}
+
+.segundomain{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.presentacion{
+    width: 600px;
+    font-size: 18px;
+}
+
+.experiencia{
+    text-align: center;
+    align-content: center;
+    width: 100px;
+}
+
+.numerouno{
+    background-color:  rgb(255, 180, 42);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.tabla{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+/*
+/*Finalizado el header y primera parte del main/*
 
 .infoPersonal{
      font-family: 'Outfit', sans-serif;
@@ -184,9 +135,7 @@ img{
     padding-top: 100px;
 }
 
-.sobreMi{
+.sobremi{
     background-color: rgb(255, 180, 42);
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
