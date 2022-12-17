@@ -145,5 +145,38 @@ img{
     padding-top: 80px;
 }
 
+.tercermain{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.contenedorcajas{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorcajas2{
+   display: flex;
+   justify-content: center;
+}
+
+.medidas{
+    width: 250px;
+    height: 150px;
+}
+
+.caja{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bicolor{
+    color:  rgb(255, 180, 42);
+    font-size: 28px;
+}
+
+/*Tercera parte del main finalizada*/
+/*Comienza la primera parte del main*/
 
 
