@@ -25,13 +25,11 @@ a{
 }
 
 .primermain{
-    width: 100%;
-    height: 100%;
     background-color:rgb(255, 180, 42); 
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 200px;
+    justify-content: space-evenly;
+    height: 80vh;
 }
 
 .intro1{
@@ -46,7 +44,27 @@ a{
     font-size: 20px;
 }
 
+.botonintro1{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background-color: black;
+    border: 0;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
 
+.botonintro2{
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    left: 10px;
+    border: 0;
+    background-color: rgb(255, 180, 42);
+    text-decoration: underline black;
+}
 
 img{
    width: 250px;
