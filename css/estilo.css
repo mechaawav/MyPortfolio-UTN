@@ -177,6 +177,89 @@ img{
 }
 
 /*Tercera parte del main finalizada*/
-/*Comienza la primera parte del main*/
+/*Comienza la cuarta parte del main*/
 
+.dospalabras3{
+    text-align: center;
+    padding-top: 80px;
+}
 
+.curriculum{
+    background-color: rgb(255, 180, 42);
+}
+
+.mieducacion, .mishabilidades{
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline rgb(255, 180, 42);
+}
+
+.contenedordeestudios{
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+.colegio, .universidad{
+    padding-bottom: 15px rgb(255, 180, 42);
+}
+
+.subrayado, .subrayado2{
+    text-decoration: underline 2px rgb(255, 180, 42);
+}
+
+.subrayado3, .subrayado4{
+    text-decoration: underline 2px rgb(144, 12, 63);
+}
+
+.habilidades{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+hr{
+    width: 500px;
+    height: 5px;
+    border: 0;
+    background-color: rgb(255, 180, 42);
+}
+
+.descargarcv{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background-color: black;
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+.botoncv{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dospalabras4{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.portfolio{
+    background-color: rgb(255, 180, 42);
+}
+
+.proyectosbotones{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.palabras{
+    padding-top: 30px;
+
+}
