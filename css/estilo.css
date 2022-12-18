@@ -219,11 +219,46 @@ img{
     margin: 0 auto;
 }
 
+.contenedorpadrehr{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contenedorhr2{
+    margin-left: 80px;
+}
+
 hr{
     width: 500px;
     height: 5px;
     border: 0;
+    border-radius: 2px;
     background-color: rgb(255, 180, 42);
+}
+
+.html-css1{
+    width: 200px;
+}
+
+.html-css2{
+    width: 300px;
+}
+
+.html-css3{
+    width: 200px;
+}
+
+.html-css4{
+    width: 350px;
+}
+
+.html-css5{
+    width: 100px;
+}
+
+.html-css6{
+    width: 80px;
 }
 
 .descargarcv{
