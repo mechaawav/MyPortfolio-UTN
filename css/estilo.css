@@ -83,7 +83,7 @@ a{
     background-color: rgb(255, 180, 42);
 }
 
-.dospalabras1{
+#acerca{
     text-align: center;
     padding-top: 80px;
 }
@@ -300,10 +300,6 @@ hr{
 .palabras{
     padding-top: 30px;
 
-}
-
-.sextomain{
-    
 }
 
 .galeria-padre{
