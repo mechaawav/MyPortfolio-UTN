@@ -310,7 +310,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center ;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .imgproyecto{
@@ -319,4 +320,64 @@ hr{
     margin: 5px;
 }
 
+/*Finalizado el main*/
+/*Comienza el footer*/
 
+footer{
+    background-color: rgb(255, 180, 42);
+}
+
+.sectionpadre-footer{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+
+.infofooter{
+    width: 500px;
+    height: 300px;
+}
+
+.titulosfooter, .pfooter, .viviendoen, .contactoynum {
+    padding-bottom: 20px;
+}
+
+.iconosfooter{
+    word-spacing: 8px;
+}
+
+.padding-gmail, .padding-ayuda{
+    padding-top: 8px;
+}
+
+input{
+    outline: none;
+    border: 0;
+}
+
+.field{
+    border-bottom: solid 1px rgb(0, 0, 0);
+    background-color: rgb(255, 180, 42);
+    width: 400px;
+    padding: 8px;
+}
+
+textarea{
+    outline: none;
+    border: 0;
+    resize: none;
+}
+
+.botonfooter{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background-color: black;
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
