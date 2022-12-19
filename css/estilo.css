@@ -69,7 +69,7 @@ a{
     text-decoration: underline black;
 }
 
-img{
+.fotoyo{
    width: 250px;
    height: 250px;
    border: 10px white solid ; 
@@ -234,7 +234,7 @@ hr{
     height: 5px;
     border: 0;
     border-radius: 2px;
-    background-color: rgb(255, 180, 42);
+    background-color: rgb(255, 180, 42)
 }
 
 .html-css1{
@@ -288,13 +288,35 @@ hr{
     background-color: rgb(255, 180, 42);
 }
 
+/*Finalizada la quinta parte del main*/
+/*Comienza la sexta y ultima parte del main*/
+
 .proyectosbotones{
     display: flex;
     justify-content: space-evenly;
-
+    text-decoration: underline 2px rgb(144, 12, 63);
 }
 
 .palabras{
     padding-top: 30px;
 
 }
+
+.sextomain{
+    
+}
+
+.galeria-padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding-top: 30px;
+}
+
+.imgproyecto{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+
