@@ -22,6 +22,7 @@ a{
     text-decoration: none;
     color: black;
     word-spacing: 8px;
+     cursor: pointer;
 }
 
 /*Finalizada la barra de navegacion*/
@@ -58,6 +59,12 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
+    transition: all 400ms ease-out;
+    cursor: pointer;
+}
+
+.botonintro1:hover{
+    transform: scale(1.1);
 }
 
 .botonintro2{
@@ -67,6 +74,7 @@ a{
     border: 0;
     background-color: rgb(255, 180, 42);
     text-decoration: underline black;
+     cursor: pointer;
 }
 
 .fotoyo{
@@ -272,6 +280,12 @@ hr{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 20px;
+    transition: all 400ms ease-out;
+     cursor: pointer;
+}
+
+.descargarcv:hover{
+    transform: scale(1.1);
 }
 
 .botoncv{
@@ -284,7 +298,7 @@ hr{
     padding-top: 70px;
 }
 
-.portfolio{
+#portfolio{
     background-color: rgb(255, 180, 42);
 }
 
@@ -299,7 +313,7 @@ hr{
 
 .palabras{
     padding-top: 30px;
-
+     cursor: pointer;
 }
 
 .galeria-padre{
@@ -376,4 +390,10 @@ textarea{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 20px;
+    transition: all 400ms ease-out;
+    cursor: pointer;
+}
+
+.botonfooter:hover{
+    transform: scale(1.1);
 }
